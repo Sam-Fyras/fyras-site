@@ -40,7 +40,7 @@ header .container {
 }
 
 .logo img {
-  height: 40px; /* Reduced from 60px or more */
+  height: 100px; /* Reduced from 60px or more */
   width: auto;
 }
 
