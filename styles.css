@@ -8,8 +8,8 @@ body {
 }
 
 header {
-    background: #0b1a3d;
-    color: #fff;
+    background: #ffffff;
+    color: #023984;
     padding: 1rem 0;
 }
 
@@ -22,11 +22,9 @@ header {
     padding: 0 1rem;
 }
 
-.logo-text .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #f1c40f;
-    text-decoration: none;
+.logo-image {
+    height: 50px;
+    width: auto;
 }
 
 nav ul {
@@ -38,7 +36,7 @@ nav ul {
 }
 
 nav a {
-    color: #f1c40f;
+    color: #023984;
     text-decoration: none;
     font-weight: bold;
 }
@@ -48,7 +46,7 @@ nav a:hover {
 }
 
 .hero {
-    background: #0b1a3d;
+    background: #023984;
     color: #fff;
     text-align: center;
     padding: 6rem 1rem;
@@ -63,8 +61,8 @@ nav a:hover {
     display: inline-block;
     margin-top: 1.5rem;
     padding: 0.75rem 1.5rem;
-    background: #f1c40f;
-    color: #0b1a3d;
+    background: #1c7daf;
+    color: #fff;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
@@ -72,8 +70,7 @@ nav a:hover {
 }
 
 .btn-primary:hover {
-    background: #e0b90f;
-    color: #fff;
+    background: #186b9d;
     cursor: pointer;
 }
 
@@ -96,8 +93,8 @@ section {
 }
 
 footer {
-    background: #0b1a3d;
-    color: #fff;
+    background: #ffffff;
+    color: #023984;
     text-align: center;
     padding: 2rem 0;
     margin-top: 2rem;
