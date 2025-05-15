@@ -1,101 +1,44 @@
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #333;
-    background-color: #fff;
+/* Make Images Responsive */
+img {
+    max-width: 100%;
+    height: auto;
 }
 
-header {
-    background: #ffffff;
-    color: #023984;
-    padding: 1rem 0;
+/* Responsive Navigation */
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 0.75rem;
+        margin-top: 1rem;
+    }
+
+    .hero h2 {
+        font-size: 2rem;
+    }
+
+    .btn-primary {
+        padding: 0.6rem 1.2rem;
+        font-size: 1rem;
+    }
+
+    .features-list {
+        text-align: left;
+    }
 }
 
-.header-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 1rem;
-}
+/* Extra Small Devices */
+@media (max-width: 480px) {
+    .hero h2 {
+        font-size: 1.5rem;
+    }
 
-.logo-image {
-    height: 200px;
-    width: auto;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-    margin: 0;
-    padding: 0;
-}
-
-nav a {
-    color: #023984;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-.hero {
-    background: #023984;
-    color: #fff;
-    text-align: center;
-    padding: 6rem 1rem;
-}
-
-.hero h2 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-}
-
-.btn-primary {
-    display: inline-block;
-    margin-top: 1.5rem;
-    padding: 0.75rem 1.5rem;
-    background: #1c7daf;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background 0.3s ease;
-}
-
-.btn-primary:hover {
-    background: #186b9d;
-    cursor: pointer;
-}
-
-section {
-    padding: 4rem 1rem;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-#ai-firewall .container {
-    text-align: center;
-}
-
-.features-list {
-    list-style: disc;
-    padding-left: 1.5rem;
-    margin: 2rem 0;
-    text-align: left;
-    display: inline-block;
-}
-
-footer {
-    background: #ffffff;
-    color: #023984;
-    text-align: center;
-    padding: 2rem 0;
-    margin-top: 2rem;
+    .btn-primary {
+        width: 100%;
+        text-align: center;
+    }
 }
